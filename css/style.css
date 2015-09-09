@@ -39,6 +39,7 @@ body {
 	color: #1b5790;
 	margin-top: 5px;
 	margin-bottom: 3px;
+	font-weight: normal;
 }
 .inputs {
 	margin-bottom: 5px;
@@ -185,7 +186,7 @@ body {
 	border-right: 1px solid #9c9d9e;
 	border-bottom-left-radius: 5px;
 	border-bottom-right-radius: 5px;
-	background: linear-gradient(to top, #feffff, #dfedfa);
+	background: linear-gradient(to top, rgba(254,255,255,.95), rgba(223,237,250,.95));
 }
 .mh1 {
 	width: 148.9px;
@@ -268,10 +269,111 @@ body {
 
 /*		buttons + search end 		*/
 
+/*		slider		*/
+
+.slider {
+	background-color: #f2f2f2;
+	padding: 9px;
+	border-left: 1px solid #9c9d9e;
+	border-right: 1px solid #9c9d9e;
+}
+.bxslider {
+	margin: 0;
+	padding: 0;
+}
+.sl_page {
+	display: block;
+	width: 100%;
+	height: 361px;
+	background: url("../img/slider.jpg") 100% 100% no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	padding: 5px;
+}
+.sl_page h3 {
+	color: #fff;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 3px #000;
+	font-weight: normal;
+	margin-top: 6%;	
+	margin-left: 46%;
+	letter-spacing: .8px;
+	
+}
+.sl_page h2 {
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: normal;
+	margin-left: 40%;
+	letter-spacing: .5px;
+}
+.sl_page h5 {
+	color: #fff;
+	text-shadow: 1px 1px 3px #000;
+	font-weight: normal;
+	line-height: 1.4em;
+	margin-left: 46%;
+	letter-spacing: 1.3px;
+}
+.slide_btn {
+	display: block;
+	width: 218px;
+	height: 28px;
+	border: 1px solid #fff;
+	border-radius: 4px;
+	background: linear-gradient(to top, #d8d8d8, #e2e4e3, #eeeef0, #fafafa);
+	margin-left: 50%;
+	margin-top: 75px;
+	-webkit-box-shadow: inset 0 0 2px #e0dfdd;
+	box-shadow: inset 0 0 2px #e0dfdd;
+	padding-top: 10px;
+	-webkit-transition: all .15s;
+	-o-transition: all .15s;
+	transition: all .15s;
+}
+.slide_btn:hover {
+	background: linear-gradient(to top, #fafafa, #eeeef0, #e2e4e3, #d8d8d8);
+	-webkit-box-shadow: inset 0 0 2px #e0dfdd;
+	box-shadow: inset 0 0 2px #b1b1b1;
+	cursor: pointer;
+}
+.slide_btn a {
+	display: block;
+	margin-left: 40px;
+	color: #1b5790;
+	text-shadow: 1px 1px 3px #fff;
+	text-decoration: none;
+	
+}
+.bt_img1 {
+	position: absolute;
+	margin-top: -22px;
+	margin-left: -10px;
+}
+.bt_img2 {
+	position: absolute;
+	margin-top: -17px;
+	margin-left: 175px;
+}
+.r_s {
+	position: absolute;
+	color: #fff;
+	margin-left: 55%;
+	margin-top: 15px;
+	z-index: 99999;
+} 
+
+
+/*		slider end		*/
 
 
 
 
+@media screen and (max-width: 1023px) {
+	.slider {
+		display: none;
+	}
+}
 
 
 
