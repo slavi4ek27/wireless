@@ -18,3 +18,23 @@ $(document).ready(function() {
 		closeEffect	: 'elastic'
 	});
 });
+
+
+
+$(document).ready(function() {
+	$(".op_men").click(function() {
+		$(this).find("~ ul").stop().slideToggle()
+	});
+});
+
+$(document).ready(function() {
+	$(".sub_m1 > p").click(function() {
+		$(this).find("~ ul").stop().slideToggle()
+	});
+});
+
+$(document).ready(function() {
+	$(".sub_m2 > p").click(function() {
+		$(this).find("~ ul").stop().slideToggle()
+	});
+});
