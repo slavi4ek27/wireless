@@ -1,5 +1,5 @@
 body {
-	background-color: #16181c;
+	background-color: #fff;
 	font-family: Arial;
 }
 .main {
@@ -858,7 +858,7 @@ body {
 		justify-content: flex-start;
 	}
 	.ipart {
-		margin: 5px 10px 5px 5px;
+		margin: 0px 10px 0px 5px;
 	}
 	.menu {
 		display: none;
@@ -888,14 +888,13 @@ body {
 		box-shadow: inset 1px 1px 1px rgba(36, 44, 52, 0.72);
 	}
 	.menu_mob {
-		display: block;	
-		width: 100%;
+		display: block;
 		border: 1px solid #9c9d9e;
 		background: linear-gradient(to top, #dfedfa, #feffff);
 	}
 	
 	.menu_mob ul {
-		padding: 15px;
+		padding: 15px 0;
 	}
 	.menu_mob p {
 		padding: 0;
@@ -926,6 +925,27 @@ body {
 	.menu_h_mob a, .menu_h_mob p {
 		color: #06294a; 
 		font-size: 14px;
+	}
+	.menu_v_mob {
+		padding: 0;
+		margin: 0;
+	}
+	.menu_v_mob>li {
+		padding-left: 25px;
+		border-bottom: 1px solid #d1d1d1;
+	}
+	.menu_v_mob>li:last-child {
+		border-bottom: none;
+	}
+	.menu_mob li ul {
+		margin-left: -25px;
+	}
+	.menu_v_mob>li li {
+		padding-left: 35px;
+		border-bottom: 1px solid #d1d1d1;
+	}
+	.menu_v_mob>li li:last-child {
+		border-bottom: none;
 	}
 	
 	
