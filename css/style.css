@@ -312,6 +312,7 @@ body {
 .b_bl {
 	border: 1px solid #9c9d9e;
 	border-top: none;
+	border-bottom: none;
 	margin: 0;
 	padding: 0;
 	background-color: #f2f2f2;
@@ -1025,6 +1026,15 @@ body {
 		-ms-align-items: stretch;
 		align-items: stretch;
 	}
+}
+.b_bl_f {
+	border: 1px solid #9c9d9e;
+	border-top: none;
+	margin: 0;
+	padding: 0;
+	background-color: #f2f2f2;
+	margin: auto;
+	max-width: 982px;
 }
 
 @media screen and (max-width: 933px) {
